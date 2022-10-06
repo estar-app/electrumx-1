@@ -1622,7 +1622,7 @@ class Verus(KomodoMixin, EquihashMixin, Coin):
                 return verushash.verushash(header)
 
 
-class Komodo(KomodoMixin, EquihashMixin, Coin):
+class Nature(KomodoMixin, EquihashMixin, Coin):
     NAME = "Nature"
     SHORTNAME = "NATURE"
     NET = "mainnet"
