@@ -1622,6 +1622,18 @@ class Verus(KomodoMixin, EquihashMixin, Coin):
                 return verushash.verushash(header)
 
 
+class Komodo(KomodoMixin, EquihashMixin, Coin):
+    NAME = "Nature"
+    SHORTNAME = "NATURE"
+    NET = "mainnet"
+    TX_COUNT = 693629
+    TX_COUNT_HEIGHT = 491777
+    TX_PER_BLOCK = 2
+    RPC_PORT = 26970
+    REORG_LIMIT = 800
+    PEERS = []
+
+
 class Einsteinium(Coin):
     NAME = "Einsteinium"
     SHORTNAME = "EMC2"
