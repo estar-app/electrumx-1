@@ -4089,3 +4089,14 @@ class Lbry(Coin):
     TX_PER_BLOCK = 43
     RPC_PORT = 9245
     REORG_LIMIT = 5000
+    
+    class Nature(KomodoMixin, EquihashMixin, Coin):
+    NAME = "Nature"
+    SHORTNAME = "NATURE"
+    NET = "mainnet"
+    TX_COUNT = 693629
+    TX_COUNT_HEIGHT = 491777
+    TX_PER_BLOCK = 2
+    RPC_PORT = 31569
+    REORG_LIMIT = 800
+    PEERS = []
