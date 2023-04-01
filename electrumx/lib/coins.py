@@ -1629,7 +1629,7 @@ class Nature(KomodoMixin, EquihashMixin, Coin):
     TX_COUNT = 693629
     TX_COUNT_HEIGHT = 491777
     TX_PER_BLOCK = 2
-    RPC_PORT = 26970
+    RPC_PORT = 28008
     REORG_LIMIT = 800
     PEERS = []
 
